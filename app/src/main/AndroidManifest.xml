@@ -22,7 +22,7 @@
         </activity>
 
         <service
-            android:name=".Floater" />
+            android:name="dark.rx.Floater" />
     </application>
 
 </manifest>
