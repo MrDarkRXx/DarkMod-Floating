@@ -244,7 +244,7 @@ public class Floater extends Service {
         StartOptionsDark(this, textView, textView2);
     }
 
-    public InterfaceInt INT(int z1){
+    public InterfaceInt INT(final int z1){
         return new InterfaceInt() {
             @Override
             public void OnWrite(int i) {
@@ -253,7 +253,7 @@ public class Floater extends Service {
         };
     }
 
-    public InterfaceBool BOOL(int z2){
+    public InterfaceBool BOOL(final int z2){
         return new InterfaceBool() {
             @Override
             public void OnWrite(boolean z) {
@@ -262,7 +262,7 @@ public class Floater extends Service {
         };
     }
 
-    public InterfaceBtn BTN(int i1){
+    public InterfaceBtn BTN(final int i1){
         return new InterfaceBtn() {
             @Override
             public void OnWrite() {
